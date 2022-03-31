@@ -9,6 +9,12 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | E-commerce product page</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
@@ -17,23 +23,23 @@
     <header class="header-container">
       <nav class="header-contents">
         <div><img src="./images/logo-desktop.svg" alt="Logo of company" /></div>
-      <ul>
-        <li>CHALLENGES</li>
-        <li>SOLUTIONS</li>
-        <li>RESOURCES</li>
-        <li>UNLOCK <span class="pro-style"> PRO</span></li>
-        <li>HIRE DEVELOPERS</li>
-      </ul>
-      <button>
-        Login with GitHub<span>
-          <div class="github-logo-box">
-            <img
-              type="image/png"
-              src="./images/github-logo.png"
-              alt="GitHub logo"
-            /></div
-        ></span>
-      </button>
+        <ul>
+          <li>CHALLENGES</li>
+          <li>SOLUTIONS</li>
+          <li>RESOURCES</li>
+          <li>UNLOCK <span class="pro-style"> PRO</span></li>
+          <li>HIRE DEVELOPERS</li>
+        </ul>
+        <button>
+          Login with GitHub<span>
+            <div class="github-logo-box">
+              <img
+                type="image/png"
+                src="./images/github-logo.png"
+                alt="GitHub logo"
+              /></div
+          ></span>
+        </button>
       </nav>
       <nav class="challenge-nav">
         <div class="challenge">
@@ -42,17 +48,51 @@
       </nav>
     </header>
     <main>
-      
-      <div>
-        <section>
-          <img
-            type="image/jpg"
-            src="./images/desktop-design-sneakers.jpg"
-            alt="Desktop preview"
-          />
+      <div class="image-portion">
+        <section class="image-preview">
+          <div class="image">
+            <img
+              type="image/jpg"
+              src="./images/desktop-design-sneakers.jpg"
+              alt="Desktop preview"
+            />
+          </div>
+          <div class="image-button">
+            <button class="button-design">Desktop design</button>
+            <button class="button-design">Lightbox design</button>
+            <button class="button-design">Mobile design</button>
+          </div>
         </section>
-        <hr>
-        <aside></aside>
+        <aside>
+          <div class="aside-header">
+            <ul>
+              <li class="free">FREE</li>
+              <li class="html">HTML</li>
+              <li class="css">CSS</li>
+              <li class="js">JS</li>
+            </ul>
+            <div class="inter3">
+              <div class="three">3</div>
+              <div class="intermediate">Intermediate</div>
+            </div>
+          </div>
+          <div>
+            <h1>E-commerce product page</h1>
+            <p>In this challenge, you'll build a beautiful product page. We'll be putting your JS skills to the test with a lightbox product gallery and cart functionality!</p>
+            <div>
+              <h4>Assets provided</h4>
+              <ul>
+                <li>Sketch and Figma design file access - <span>Unlock with PRO</span></li>
+                <li>JPEG design files for mobile & desktop layouts</li>
+                <li>Style guide for fonts, colors, etc</li>
+                <li>Optimized image assets</li>
+                <li>README file to help you get started</li>
+                <li>HTML file with pre-written content</li>
+              </ul>
+            </div>
+            <button>Start challenge(Free) <span> v </span></button>
+          </div>
+        </aside>
       </div>
     </main>
   </body>
